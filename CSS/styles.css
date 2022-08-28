@@ -1,45 +1,45 @@
 body {
   margin: 0;
-  color: #40514E;
+  color: #40514e;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 200%;
 }
 
 h1 {
   font-size: 6rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  color: #E8AA42;
+  font-family: "Sacramento", cursive;
+  color: #e8aa42;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
-  color: #E8AA42;
+  color: #e8aa42;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #A87520;
+  font-family: "Montserrat", sans-serif;
+  color: #a87520;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-  color: #A87520;
+  color: #a87520;
   margin: 0 20px;
   text-decoration: none;
   display: inline-block;
   margin-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-a:hover{
-  color: #E6B768;
+a:hover {
+  color: #e6b768;
 }
 hr {
   border-style: dotted;
@@ -53,18 +53,17 @@ hr {
 }
 
 .top-container {
-  background-color: #FFE5B4;
+  background-color: #ffe5b4;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
   margin: 100px 0;
- 
 }
 
 .bottom-container {
-  background-color: #E8AA42;
+  background-color: #e8aa42;
   height: 200px;
 }
 
@@ -131,7 +130,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -158,4 +157,58 @@ hr {
   font-size: 30px;
   margin-bottom: 120px;
   margin-top: 30px;
+}
+.prices {
+  display: flex;
+  justify-content: center;
+}
+.growth {
+  background-color: #faf5ed;
+  width: 200px;
+  height: 300px;
+  margin: 0 1.5rem;
+  border-radius: 6px;
+}
+.gd {
+  text-align: center;
+  justify-items: center;
+  position: relative;
+  background-color: #b4d8ff;
+  width: 220px;
+  height: 50px;
+  right: 10px;
+  top: 20px;
+  padding-top: 0.5rem;
+}
+.gd2 {
+  position: relative;
+  top: 35px;
+}
+.gd2 p {
+  color: gray;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.gdt {
+  text-align: center;
+  justify-items: center;
+  position: relative;
+  background-color: yellow;
+  width: 220px;
+  height: 50px;
+  right: 10px;
+  top: 20px;
+  padding-top: 0.5rem;
+}
+.gdth {
+  text-align: center;
+  justify-items: center;
+  position: relative;
+  background-color: #7dce13;
+  width: 220px;
+  height: 50px;
+  right: 10px;
+  top: 20px;
+  padding-top: 0.5rem;
 }
